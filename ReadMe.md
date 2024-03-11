@@ -1,8 +1,8 @@
 # Code Challange 
 
-# Logger in Go
+# C# Logger in Gohallange -1
 
-Defines a simple logging interface named Logger with three methods: Info, Warning, and Error. It also provides an implementation of this interface using a Log struct, which has a field for an os.File to write logs to.
+Define a simple logging interface named Logger with three methods: Info, Warning, and Error. It also provides an implementation of this interface using a Log struct, which has a field for an os.File to write logs to.
 
 ## Logger Interface
 
@@ -25,7 +25,7 @@ See the provided Go program in the file `logger.go.`
 
 
 
-# Key-Value Map Populator
+# Challange -2
 
 Define Go program that reads a text file containing data in the format "key:value" on each line. It parses the file and populates a map with the key-value pairs. It also handles any errors that may occur during file reading or parsing.
 
@@ -37,3 +37,21 @@ Define Go program that reads a text file containing data in the format "key:valu
 
  ## solution
 See the provided Go program in the file `parser.go.`
+
+
+# Challange -3
+
+Create a Go program that performs the following tasks:
+
+1. Read a JSON file containing a list of employees with their respective salaries.
+2. Implement logic to give a 10% raise to employees whose salary is below the company average.
+3. Write the updated employee data back to a new JSON file.
+
+### Requirements
+
+- The program should be written in the Go programming language.
+- The input JSON file should follow the structure defined by the `Employee` struct.
+- The program should calculate the average salary of all employees.
+- Employees with salaries below the average should receive a 10% raise.
+- The updated employee data should be written to a new JSON file.
+
