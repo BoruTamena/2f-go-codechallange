@@ -22,3 +22,18 @@ The package provides a function named `NewLog` that creates a new `Log` instance
 
 ## Solution
 See the provided Go program in the file `logger.go.`
+
+
+
+# Key-Value Map Populator
+
+Define Go program that reads a text file containing data in the format "key:value" on each line. It parses the file and populates a map with the key-value pairs. It also handles any errors that may occur during file reading or parsing.
+
+## Usage
+
+1. Make sure you have Go installed on your system.
+2. Clone this repository or copy the contents of `main.go` into a new Go file.
+3. Modify the `filePath` variable in the code to point to your input text file.
+
+ ## solution
+See the provided Go program in the file `parser.go.`
