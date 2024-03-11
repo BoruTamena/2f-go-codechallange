@@ -1,0 +1,3 @@
+info:Information message 
+warning:Warning message 
+error:Error message 
